@@ -6,6 +6,8 @@ import LoginForm from './src/components/LoginForm';
 import ContactListScreen from './src/screens/ContactScreen/ContactListScreen';
 import ClassComponents from './src/components/ClassComponents';
 import UseEffecHook from './src/components/UseEffecHook';
+import UseEffectUpdatingPhase from './src/components/UseEffectUpdatingPhase';
+import UseEffectUnmounting from './src/components/UseEffectUnmounting';
 const App = () => {
   return (
     <SafeAreaView>
@@ -14,7 +16,9 @@ const App = () => {
       {/* <LoginForm /> */}
       {/* <ContactListScreen/> */}
       {/* <ClassComponents /> */}
-      <UseEffecHook/>
+      {/* <UseEffecHook /> */}
+      {/* <UseEffectUpdatingPhase /> */}
+      <UseEffectUnmounting/>
     </SafeAreaView>
   );
 };
